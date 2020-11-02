@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginActivity">
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.helloworldshopping.LoginActivity"
+        android:label="login"
+        tools:layout="@layout/login" />
+    <activity
+        android:id="@+id/shopActivity"
+        android:name="com.example.helloworldshopping.ShopActivity"
+        android:label="main"
+        tools:layout="@layout/main" />
+    <activity
+        android:id="@+id/registrationActivity"
+        android:name="com.example.helloworldshopping.RegistrationActivity"
+        android:label="registration"
+        tools:layout="@layout/registration" />
+    <fragment
+        android:id="@+id/couponFragment"
+        android:name="com.example.helloworldshopping.CouponFragment"
+        android:label="fragment_coupon"
+        tools:layout="@layout/fragment_coupon" />
+</navigation>
