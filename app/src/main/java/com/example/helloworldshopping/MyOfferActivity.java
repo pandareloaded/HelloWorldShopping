@@ -1,12 +1,14 @@
 package com.example.helloworldshopping;
 
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.helloworldshopping.adapter.MyPageAdapter;
 
 
-public class MyOfferActivity extends BaseActivity {
+public class MyOfferActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
