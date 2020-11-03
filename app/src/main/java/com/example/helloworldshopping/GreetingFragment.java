@@ -27,17 +27,8 @@ public class GreetingFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_greeting, container, false);
     }
 
-    /* public void sendMessage(View view){
-         Intent intent = new Intent(GreetingFragment.this.getContext(), OfferingActivity.class);
-         EditText editText = (EditText) findViewById(R.id.userNameTextbox);
-         String username = editText.getText().toString();
-
-         SharedPreferences sp = getSharedPreferences("HelloWorldShoppingPref", Context.MODE_PRIVATE);
-         SharedPreferences.Editor spEditor = sp.edit();
-         spEditor.putString("username",username);
-         spEditor.commit();
-
-         intent.putExtra(EXTRA_MESSAGE, username);
+     public void initMyOfferActivity(View view){
+         Intent intent = new Intent(getActivity(), MyOfferActivity.class);
         startActivity(intent);
-    }*/
+    }
 }

@@ -22,7 +22,7 @@ public class LoginActivity extends BaseActivity {
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
         } else {
-            setContentView(R.layout.login);
+            setContentView(R.layout.activity_login);
         }
     }
 

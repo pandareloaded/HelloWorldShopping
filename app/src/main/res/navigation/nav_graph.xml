@@ -9,7 +9,7 @@
         android:id="@+id/loginActivity"
         android:name="com.example.helloworldshopping.LoginActivity"
         android:label="login"
-        tools:layout="@layout/login" />
+        tools:layout="@layout/activity_login" />
     <activity
         android:id="@+id/shopActivity"
         android:name="com.example.helloworldshopping.ShopActivity"
@@ -19,7 +19,7 @@
         android:id="@+id/registrationActivity"
         android:name="com.example.helloworldshopping.RegistrationActivity"
         android:label="registration"
-        tools:layout="@layout/registration" />
+        tools:layout="@layout/activity_registration" />
     <fragment
         android:id="@+id/couponFragment"
         android:name="com.example.helloworldshopping.CouponFragment"

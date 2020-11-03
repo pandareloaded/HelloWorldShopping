@@ -3,11 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="initMyOfferActivity"
     tools:context=".GreetingFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:onClick="initMyOfferActivity"
         android:orientation="vertical">
 
         <TextView
@@ -20,7 +22,7 @@
             android:id="@+id/offerLink"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="sendMessage"
+            android:onClick="initMyOfferActivity"
             android:text="See Your Offer" />
     </LinearLayout>
 </FrameLayout>

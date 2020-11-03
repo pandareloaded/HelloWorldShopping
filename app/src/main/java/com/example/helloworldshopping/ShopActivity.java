@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class ShopActivity extends BaseActivity {
@@ -27,5 +28,10 @@ public class ShopActivity extends BaseActivity {
 
 
         textView.setText("HOWDY"+" : "+username);
+    }
+
+    public void initMyOfferActivity(View view){
+        Intent intent = new Intent(this, MyOfferActivity.class);
+        startActivity(intent);
     }
 }
