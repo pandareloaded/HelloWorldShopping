@@ -11,10 +11,13 @@ import com.example.helloworldshopping.Offer3Fragment;
 
 public class MyPageAdapter extends FragmentPagerAdapter {
 
-    public MyPageAdapter(FragmentManager fragMan) {
-        super(fragMan);
+    public MyPageAdapter(FragmentManager fragMan, int behavior) {
+        super(fragMan, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
     }
 
+    public MyPageAdapter(FragmentManager fragMan) {
+        super(fragMan, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+    }
     @Override
     public int getCount() {
         return 3;
